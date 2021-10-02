@@ -18,26 +18,11 @@
     "@vue/cli-plugin-eslint": "~5.0.0-beta.4",
     "@vue/cli-service": "~5.0.0-beta.4",
     "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
     "eslint": "^7.20.0",
-    "eslint-plugin-vue": "^7.6.0"
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^7.6.0",
+    "prettier": "^2.4.1"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+  "browserslist": ["> 1%", "last 2 versions", "not dead"]
 }
