@@ -8,20 +8,6 @@ module.exports = {
     parser: '@babel/eslint-parser',
   },
   rules: {
-    'no-console': () => {
-      if (typeof process.env.NODE_ENV === 'production') {
-        return 'warn'
-      }
-
-      return 'off'
-    },
-    'no-debugger': () => {
-      if (typeof process.env.NODE_ENV === 'production') {
-        return 'warn'
-      }
-
-      return 'off'
-    },
     'prettier/prettier': ['error'],
   },
 }
